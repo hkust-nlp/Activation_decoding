@@ -37,15 +37,6 @@ pip install -r requirements.txt
 | `--num-gpus`      | `1` | Number of GPUs to use, `1/1/2` for `7B/13B/70B` model sizes respectively if you are using 80G GPU cards.  |
 | `--do-rating`      | | Add this to output evaluation results  |
 
-#### In-domain Hyperparameter choice
-
-In the table below, we present the `alpha` with the `info_layer` choices for each knowledge-seeking dataset, formatted as `alpha/info_layer`.
-
-| | TriviaQA | HotpotQA | NQ |
-|---| --- | --- | --- |
-|`LLaMa2-7B-chat`| `1/32`| `0.8/32` |`0.2/32`  |
-|`LLaMa2-13B-chat`| `0.6/32` |`1/28`  |  `0.8/34`|
-|`LLaMa2-70B-chat`|  `1/70`| `0.6/66` | `1/68` |
 
 ### TriviaQA, HotpotQA and Natural Questions
 
